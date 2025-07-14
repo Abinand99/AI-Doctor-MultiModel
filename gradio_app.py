@@ -1,4 +1,4 @@
-from brain_of_the_doctor import encode_image,image_query
+from doctor import encode_image,image_query
 from voice_of_patient import record_audio,transcribe
 from voice_of_doctor import text_to_speech_gtts
 import gradio as gr
